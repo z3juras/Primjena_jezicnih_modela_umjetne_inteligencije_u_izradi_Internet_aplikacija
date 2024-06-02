@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Stranica</title>
+    <style>
+        /* Unutarnji CSS za postavljanje boje teksta drugog <p> elementa na crvenu */
+        #red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Naslov Stranice</h1>
+    <p>Ovo je prvi paragraf.</p>
+    <p id="red">Ovo je drugi paragraf s crvenim tekstom.</p>
+</body>
+</html>

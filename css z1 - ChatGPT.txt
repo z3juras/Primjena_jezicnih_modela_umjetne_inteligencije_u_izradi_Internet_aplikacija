@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stranica s paragrafima</title>
+<style>
+    p {
+        color: green;
+    }
+</style>
+</head>
+<body>
+
+<h1>Naslov</h1>
+
+<p>Ovo je prvi paragraf.</p>
+<p>Ovo je drugi paragraf.</p>
+
+</body>
+</html>

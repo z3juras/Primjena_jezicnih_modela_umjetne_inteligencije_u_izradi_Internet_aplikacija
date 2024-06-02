@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stranica s linkom</title>
+<style>
+    /* Stil za link */
+    a {
+        color: green; /* Početna boja linka */
+        text-decoration: none; /* Ukloni podcrtavanje */
+        transition: color 0.3s; /* Gladi prijelaz boje */
+    }
+
+    /* Stil za link kad se pređe mišem preko njega */
+    a:hover {
+        color: red; /* Boja linka kad se pređe mišem preko njega */
+    }
+</style>
+</head>
+<body>
+
+<h1>Naslov stranice</h1>
+
+<!-- Link koji se stilizira -->
+<a href="#">Poveznica</a>
+
+</body>
+</html>

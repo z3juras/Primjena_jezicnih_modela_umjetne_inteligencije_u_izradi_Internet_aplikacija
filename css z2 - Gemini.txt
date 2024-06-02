@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primjer HTML-a i CSS-a</title>
+    <style>
+        p {
+            color: green;
+        }
+        #red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zelene paragrafe</h1>
+    <p>Ovo je prvi paragraf.</p>
+    <p id="red">Ovo je drugi paragraf.</p>
+</body>
+</html>

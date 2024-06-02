@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marq ® Tool Watch Collection</title>
+    <style>
+        /* Stilizacija navigacije */
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        /* Stilizacija glavnog dijela stranice */
+        .main-content {
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* Stilizacija footer-a */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Responzivnost */
+        @media screen and (max-width: 700px) {
+            nav a {
+                display: block;
+                margin: 5px;
+            }
+        }
+        @media screen and (max-width: 990px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigacija -->
+    <nav>
+        <a href="#">Naslovnica</a>
+        <a href="#">Članci</a>
+        <a href="#">Kontakt</a>
+    </nav>
+
+    <!-- Zaglavlje -->
+    <header>
+        <h1>MARQ ® TOOL WATCH COLLECTION</h1>
+    </header>
+
+    <!-- Glavni dio stranice -->
+    <div class="main-content">
+        <h2>LUXURY SMARTWATCHES</h2>
+        <p>Tekst po vašem izboru ovdje...</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; Ime i prezime
+    </footer>
+</body>
+</html>

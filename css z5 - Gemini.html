@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primjer HTML stranice</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .slika-tekst {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .slika {
+            width: 49%;
+            height: auto;
+            border: 2px solid white;
+            margin-bottom: 10px;
+        }
+
+        .tekst {
+            width: 50%;
+        }
+
+        .video {
+            margin: 10px auto;
+            display: block;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primjer HTML stranice</h1>
+
+    <div class="slika-tekst">
+        <img class="slika" src="https://unsplash.com/s/photos/prime" alt="Primjer slike">
+        <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec diam quis quam pulvinar ultricies eget vel quam. Nulla facilisi. Proin sit amet neque sed augue fermentum tincidunt sit amet quis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec vel magna et ligula feugiat semper. Vivamus in lectus et arcu gravida congue. Duis sed quam vitae enim ullamcorper hendrerit id eget dui. Mauris sed ligula eu enim iaculis ultricies eu eget orci. Nullam et magna eget tellus tincidunt pretium venenatis quis velit.</p>
+    </div>
+
+    <video class="video" src="https://www.youtube.com/c/PrimerLearning/videos" controls></video>
+</body>
+</html>

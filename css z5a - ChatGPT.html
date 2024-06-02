@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stranica s slikom i videom</title>
+<style>
+    body {
+        background-color: black; /* Crna pozadina */
+        color: white; /* Bijeli tekst */
+    }
+
+    /* Stil za naslov */
+    h1 {
+        text-align: center; /* Centriranje naslova */
+    }
+
+    /* Stil za redak sa slikom i tekstom */
+    .slika-tekst {
+        display: flex; /* Postavljanje slike i teksta u isti red */
+        align-items: top; /* Postavljanje na vrh reda */
+    }
+
+    /* Stil za sliku */
+    .slika {
+        width: 49%; /* Širina slike */
+        border: 1px solid white; /* Okvir bijele boje */
+    }
+
+    /* Stil za odlomak teksta */
+    .tekst {
+        width: 50%; /* Širina teksta */
+        margin-left: 1%; /* Razmak između slike i teksta */
+        border: 1px solid white; /* Okvir bijele boje */
+    }
+
+    /* Stil za video */
+    .video {
+        margin-top: 10px; /* Odmak videa od teksta za 10px */
+        text-align: center; /* Centriranje videa */
+        border: 1px solid white; /* Okvir bijele boje */
+    }
+</style>
+</head>
+<body>
+
+<!-- Naslov -->
+<h1>Naslov stranice</h1>
+
+<!-- Redak sa slikom i tekstom -->
+<div class="slika-tekst">
+    <div class="slika">
+        <img src="https://www.example.com/putanja/do/slike.jpg" alt="Slika">
+    </div>
+    <div class="tekst">
+        <p>Ovdje ide vaš tekst. Ovdje ide vaš tekst. Ovdje ide vaš tekst.</p>
+    </div>
+</div>
+
+<!-- Video -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>

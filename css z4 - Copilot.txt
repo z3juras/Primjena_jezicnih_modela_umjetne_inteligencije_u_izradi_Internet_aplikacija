@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Stranica</title>
+    <style>
+        /* Interni CSS za oblikovanje */
+        body {
+            font-family: Verdana, Helvetica, sans-serif;
+        }
+
+        a {
+            color: green;
+            text-decoration: none;
+            transition: color 0.3s; /* Efekt pri prelasku mišem */
+        }
+
+        a:hover {
+            color: red; /* Boja teksta kad se pređe mišem preko linka */
+        }
+    </style>
+</head>
+<body>
+    <h1>Naslov Stranice</h1>
+    <p>Ovo je prvi paragraf.</p>
+    <p>Ovo je drugi paragraf s <a href="#">vezom</a>.</p>
+</body>
+</html>
