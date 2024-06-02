@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primjer stranice s četiri liste</title>
+</head>
+<body>
+  <h1>Primjeri različitih listi</h1>
+
+  <h2>Uređena lista</h2>
+  <ul>
+    <li>Samsung</li>
+    <li>Apple</li>
+    <li>Huawei</li>
+    <li>Panasonic</li>
+    <li>Motorola</li>
+  </ul>
+
+  <h2>Neuređena lista</h2>
+  <ol>
+    <li>Samsung</li>
+    <li>Apple</li>
+    <li>Huawei</li>
+    <li>Panasonic</li>
+    <li>Motorola</li>
+    <li>Samsung</li>
+  </ol>
+
+  <h2>Definicijska lista</h2>
+  <dl>
+    <dt>Samsung</dt>
+    <dd>Galaxy S23 Ultra</dd>
+    <dd>Galaxy S23+</dd>
+    <dd>Galaxy S23</dd>
+    <dt>Samsung</dt>
+    <dd>Galaxy Z Fold 5</dd>
+    <dd>Galaxy Z Flip 5</dd>
+  </dl>
+
+  <h2>Ugnježdena lista</h2>
+  <ol>
+    <li>Apple
+      <ul>
+        <li>iPhone 12</li>
+        <li>iPhone 13</li>
+        <li>iPhone 14 Plus</li>
+        <li>iPhone 15 Pro Max</li>
+      </ul>
+    </li>
+  </ol>
+
+</body>
+</html>

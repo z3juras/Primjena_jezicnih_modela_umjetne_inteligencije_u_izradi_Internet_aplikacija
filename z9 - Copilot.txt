@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vaša stranica</title>
+</head>
+<body>
+	<video width="640" height="360" controls>
+    	<source src="putanja_do_vaseg_video_fajla.mp4" type="video/mp4">
+    	Vaš pregledač ne podržava video.
+	</video>
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/vaš_video_id" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>

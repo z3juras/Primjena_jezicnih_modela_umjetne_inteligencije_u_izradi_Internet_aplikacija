@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja HTML5 Stranica</title>
+</head>
+<body>
+    <header>
+        <h1>Naslov Stranice</h1>
+        <h2>Podnaslov</h2>
+    </header>
+
+    <main>
+        <p>Ovo je prvi odlomak na stranici.</p>
+        <p>Ovo je drugi odlomak na stranici.</p>
+        
+        <!-- Prva slika s opisom -->
+        <figure>
+            <a href="putanja/do/vece-slike1.jpg" target="_blank">
+                <img src="putanja/do/thumbnail1.jpg" alt="Slika 1">
+            </a>
+            <figcaption>Opis prve slike.</figcaption>
+        </figure>
+        
+        <!-- Druga slika s opisom -->
+        <figure>
+            <a href="putanja/do/vece-slike2.jpg" target="_blank">
+                <img src="putanja/do/thumbnail2.jpg" alt="Slika 2">
+            </a>
+            <figcaption>Opis druge slike.</figcaption>
+        </figure>
+    </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Primjer HTML stranice</title>
+</head>
+<body>
+    <div>
+        <p>Ovaj prvi paragraf se nalazi unutar <div> elementa.</p>
+        <p>Drugi paragraf unutar <div> elementa ima **podebljanu crvenu riječ**. style="color:red"</p>
+    </div>
+    <p>Ovaj paragraf se nalazi izvan <div> elementa.</p>
+    <p>I ovaj paragraf izvan <div> elementa ima **podebljanu crvenu riječ**. style="color:red"</p>
+</body>
+</html>

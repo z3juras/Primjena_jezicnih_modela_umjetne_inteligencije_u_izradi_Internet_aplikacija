@@ -1,0 +1,3 @@
+<footer>
+  <p>Copyright © Vaše ime i prezime, <a href="https://github.com/username/project-name">link na Github & Ime projekta</a>. All rights reserved.</p>
+</footer>

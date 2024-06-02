@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablica</title>
+</head>
+<body>
+    <h1>Tablica</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Kolona 1</th>
+                <th>Kolona 2</th>
+                <th>Kolona 3</th>
+                <th>Kolona 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Red 1, Kolona 1</td>
+                <td>Red 1, Kolona 2</td>
+                <td>Red 1, Kolona 3</td>
+                <td>Red 1, Kolona 4</td>
+            </tr>
+            <tr>
+                <td>Red 2, Kolona 1</td>
+                <td>Red 2, Kolona 2</td>
+                <td>Red 2, Kolona 3</td>
+                <td>Red 2, Kolona 4</td>
+            </tr>
+            <tr>
+                <td>Red 3, Kolona 1</td>
+                <td>Red 3, Kolona 2</td>
+                <td>Red 3, Kolona 3</td>
+                <td>Red 3, Kolona 4</td>
+            </tr>
+            <tr>
+                <td>Red 4, Kolona 1</td>
+                <td>Red 4, Kolona 2</td>
+                <td>Red 4, Kolona 3</td>
+                <td>Red 4, Kolona 4</td>
+            </tr>
+            <tr>
+                <td>Red 5, Kolona 1</td>
+                <td>Red 5, Kolona 2</td>
+                <td>Red 5, Kolona 3</td>
+                <td>Red 5, Kolona 4</td>
+            </tr>
+            <tr>
+                <td>Red 6, Kolona 1</td>
+                <td>Red 6, Kolona 2</td>
+                <td>Red 6, Kolona 3</td>
+                <td>Red 6, Kolona 4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

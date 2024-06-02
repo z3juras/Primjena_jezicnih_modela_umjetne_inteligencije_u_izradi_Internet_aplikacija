@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Web Stranica</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Naziv 1</th>
+                <th>Naziv 2</th>
+                <th>Naziv 3</th>
+                <th>Naziv 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ćelija 1, redak 1</td>
+                <td>Ćelija 2, redak 1</td>
+                <td>Ćelija 3, redak 1</td>
+                <td>Ćelija 4, redak 1</td>
+            </tr>
+            <tr>
+                <td>Ćelija 1, redak 2</td>
+                <td>Ćelija 2, redak 2</td>
+                <td>Ćelija 3, redak 2</td>
+                <td>Ćelija 4, redak 2</td>
+            </tr>
+            <!-- Dodajte još 4 retka -->
+        </tbody>
+    </table>
+</body>
+</html>
+

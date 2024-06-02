@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Primjer HTML forme</title>
+</head>
+<body>
+    <h1>Registracijska forma</h1>
+
+    <form action="#">
+        <label for="ime">Ime:</label>
+        <input type="text" id="ime" name="ime" required><br>
+
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" name="prezime" required><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="spol">Spol:</label>
+        <input type="radio" id="musko" name="spol" value="musko" required>
+        <label for="musko">Muško</label><br>
+        <input type="radio" id="zensko" name="spol" value="zensko" required>
+        <label for="zensko">Žensko</label><br>
+
+        <input type="submit" value="Pošalji">
+        <input type="reset" value="Poništi">
+    </form>
+</body>
+</html>
