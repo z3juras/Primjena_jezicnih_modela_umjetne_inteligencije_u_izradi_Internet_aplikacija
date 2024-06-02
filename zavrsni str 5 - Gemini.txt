@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stranica s člancima</title>
+</head>
+<body>
+  <main>
+    <h2>Najnoviji članci</h2>
+    <article class="clanak">
+      <a href="#">
+        <img src="slika_clanka_1.jpg" alt="Naslov prvog članka">
+      </a>
+      <h3><a href="#">Naslov prvog članka</a></h3>
+      <p>Kratki tekst prvog članka...</p>
+      <span>Datum objave</span>
+    </article>
+  </main>
+</body>
+</html>

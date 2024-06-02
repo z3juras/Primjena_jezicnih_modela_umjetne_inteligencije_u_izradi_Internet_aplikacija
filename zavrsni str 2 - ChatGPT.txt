@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!-- Metapodaci -->
+</head>
+<body>
+    <header>
+        <!-- Navigacija -->
+    </header>
+    <main>
+        <!-- Članci -->
+        <article>
+            <img src="thumbnail.jpg" alt="Thumbnail">
+            <h1>Naslov članka</h1>
+            <p>Kratki tekst članka</p>
+            <p>Datum objave</p>
+            <a href="#">Više o članku</a>
+        </article>
+        <!-- Ostali članci -->
+    </main>
+    <footer>
+        <!-- Podnožje -->
+    </footer>
+</body>
+</html>

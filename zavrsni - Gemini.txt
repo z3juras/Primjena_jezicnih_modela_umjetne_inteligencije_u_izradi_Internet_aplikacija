@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naslov stranice</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#pocetna">Početna</a></li>
+        <li><a href="#novosti">Novosti</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#onama">O nama</a></li>
+        <li><a href="#galerija">Galerija</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pocetna">
+      <h1>Naslov</h1>
+      <h2>Podnaslov</h2>
+      <p>Lorem ipsum...</p>
+      <p>Lorem ipsum...</p>
+      <p>Lorem ipsum...</p>
+      <figure>
+        <img src="slika.jpg" alt="Opis slike">
+        <figcaption>Opis slike</figcaption>
+      </figure>
+    </section>
+
+    <section id="novosti">
+      <h2>Najnoviji članci</h2>
+      <article class="clanak">
+        <a href="#">
+          <img src="slika_clanka_1.jpg" alt="Naslov prvog članka">
+        </a>
+        <h3><a href="#">Naslov prvog članka</a></h3>
+        <p>Kratki tekst prvog članka...</p>
+        <span>Datum objave</span>
+      </article>
+      </section>
+
+    </main>
+
+  <footer>
+    <p>Copyright © 2024</p>
+    <a href="https://github.com/vas_korisnicko_ime">  <i class="fab fa-github"></i> </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

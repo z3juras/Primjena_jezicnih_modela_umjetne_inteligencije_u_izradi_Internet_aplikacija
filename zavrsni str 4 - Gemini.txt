@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podnožje stranice</title>
+</head>
+<body>
+  <footer>
+    <p>Copyright © 2024</p>
+    <a href="https://github.com/vas_korisnicko_ime">  <i class="fab fa-github"></i> </a>
+  </footer>
+</body>
+</html>

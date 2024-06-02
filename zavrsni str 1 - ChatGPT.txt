@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Opis stranice">
+    <meta name="keywords" content="ključne riječi">
+    <meta name="author" content="Autor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naslov početne stranice</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Početna stranica</a>
+            <a href="#">Novosti</a>
+            <a href="#">Kontakt</a>
+            <a href="#">O nama</a>
+            <a href="#">Galerija</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Naslov početne stranice</h1>
+        <h2>Podnaslov početne stranice</h2>
+        <p>Odlomak 1</p>
+        <p>Odlomak 2</p>
+        <p>Odlomak 3</p>
+        <figure>
+            <img src="put/do/slike.jpg" alt="Opis slike">
+            <figcaption>Opis slike</figcaption>
+        </figure>
+    </main>
+    <footer>
+        Tekst podnožja, Copyright ©
+        <a href="https://github.com/tvoj-repozitorij">GitHub</a>
+    </footer>
+</body>
+</html>

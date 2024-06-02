@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!-- Slično kao kod početne stranice -->
+    <title>Naslov članci stranice</title>
+</head>
+<body>
+    <!-- Slično kao kod početne stranice -->
+    <main>
+        <section>
+            <!-- Struktura za prikaz članaka -->
+        </section>
+    </main>
+    <!-- Slično kao kod početne stranice -->
+</body>
+</html>

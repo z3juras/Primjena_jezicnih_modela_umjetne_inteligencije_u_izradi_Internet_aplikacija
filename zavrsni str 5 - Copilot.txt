@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <!-- Slično kao kod početne stranice -->
+    <title>Naslov O nama stranice</title>
+</head>
+<body>
+    <!-- Slično kao kod početne stranice -->
+    <main>
+        <h1>O nama</h1>
+        <p>Opis vaše organizacije ili projekta.</p>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Vaš preglednik ne podržava video.
+        </video>
+    </main>
+    <!-- Slično kao kod početne stranice -->
+</body>
+</html>
